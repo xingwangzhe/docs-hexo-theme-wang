@@ -73,5 +73,5 @@ footer_links:
 
 ## 底部文字链接,需要设置name，link
 footer_links_text:
-  - name: 文字链接
-    link:
+  - name: 爱发电
+    link: https://afdian.com/a/xingwangzhe
