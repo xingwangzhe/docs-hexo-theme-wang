@@ -32,7 +32,7 @@
     "hexo-theme-landscape": "^1.1.0",
     "hexo-theme-wang": "^3.5.1",
     "hexo-tips": "^1.4.0",
-    "katex": "^0.16.21"
+    "katex": "^0.16.22"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
