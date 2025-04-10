@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@renbaoshuo/markdown-it-katex':
         specifier: ^2.0.2
-        version: 2.0.2(katex@0.16.21)(markdown-it@13.0.2)
+        version: 2.0.2(katex@0.16.22)(markdown-it@13.0.2)
       hexo:
         specifier: ^7.3.0
         version: 7.3.0(chokidar@3.6.0)
@@ -64,13 +64,13 @@ importers:
         version: 1.1.0
       hexo-theme-wang:
         specifier: ^3.5.1
-        version: 3.5.1
+        version: 3.5.2
       hexo-tips:
         specifier: ^1.4.0
         version: 1.4.0
       katex:
         specifier: ^0.16.21
-        version: 0.16.21
+        version: 0.16.22
 
 packages:
 
@@ -548,8 +548,8 @@ packages:
   hexo-theme-landscape@1.1.0:
     resolution: {integrity: sha512-nszjixBEiEDZjf7glAGbHg0nKGHZdUDwzFVVdRDeu4FeHfGcY5CZNl9sF4vSligjnD8IwFXpDfx5E+GRmNKvWg==}
 
-  hexo-theme-wang@3.5.1:
-    resolution: {integrity: sha512-B2JuzJfzepK3MA/WzjNDkfcXlEhfAyrItuVP4sVwD3ndWayjFc11Z2hObt6vRpvHjiA93yO0s3rVVTB1oD/gKg==}
+  hexo-theme-wang@3.5.2:
+    resolution: {integrity: sha512-lRnx7nrJCU9wNlcE4LZ1FAt7W0j/brg3xOlszkK6/oh0y6uDPlaJJiuqBm2Y6V6IXyWy0s6xC4U7Ztru0FJnWA==}
 
   hexo-tips@1.4.0:
     resolution: {integrity: sha512-rhrjWq57T4v3hK5gnDNZOGv1B4GyGn1l5LgUlBKziOQEtcd1sn8Ka9clPTBvfzsObSe4PjGFkGMsgoOAwiLEog==}
@@ -664,8 +664,8 @@ packages:
   jws@3.2.2:
     resolution: {integrity: sha512-YHlZCB6lMTllWDtSPHz/ZXTsi8S00usEV6v1tjq8tOUZzw7DpSDWVXjXDre6ed1w/pd495ODpHZYSdkRTsa0HA==}
 
-  katex@0.16.21:
-    resolution: {integrity: sha512-XvqR7FgOHtWupfMiigNzmh+MgUVmDGU2kXZm899ZkPfcuoPuFxyHmXsgATDpFZDAXCI8tvinaVcDo8PIIJSo4A==}
+  katex@0.16.22:
+    resolution: {integrity: sha512-XCHRdUw4lf3SKBaJe4EvgqIuWwkPSo9XoeO8GjQW94Bp7TWv9hNhzZjZ+OH9yf1UmLygb7DIT5GSFQiyt16zYg==}
     hasBin: true
 
   linkify-it@4.0.1:
@@ -1112,9 +1112,9 @@ snapshots:
 
   '@adobe/css-tools@4.3.3': {}
 
-  '@renbaoshuo/markdown-it-katex@2.0.2(katex@0.16.21)(markdown-it@13.0.2)':
+  '@renbaoshuo/markdown-it-katex@2.0.2(katex@0.16.22)(markdown-it@13.0.2)':
     dependencies:
-      katex: 0.16.21
+      katex: 0.16.22
       markdown-it: 13.0.2
 
   '@types/jsonwebtoken@9.0.9':
@@ -1670,7 +1670,7 @@ snapshots:
 
   hexo-theme-landscape@1.1.0: {}
 
-  hexo-theme-wang@3.5.1: {}
+  hexo-theme-wang@3.5.2: {}
 
   hexo-tips@1.4.0: {}
 
@@ -1836,7 +1836,7 @@ snapshots:
       jwa: 1.4.1
       safe-buffer: 5.2.1
 
-  katex@0.16.21:
+  katex@0.16.22:
     dependencies:
       commander: 8.3.0
 
