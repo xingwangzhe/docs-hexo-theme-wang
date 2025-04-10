@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@renbaoshuo/markdown-it-katex':
         specifier: ^2.0.2
-        version: 2.0.2(katex@0.16.21)(markdown-it@13.0.2)
+        version: 2.0.2(katex@0.16.22)(markdown-it@13.0.2)
       hexo:
         specifier: ^7.3.0
         version: 7.3.0(chokidar@3.6.0)
@@ -63,14 +63,14 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0
       hexo-theme-wang:
-        specifier: ^3.5.1
+        specifier: ^3.5.2
         version: 3.5.2
       hexo-tips:
         specifier: ^1.4.0
         version: 1.4.0
       katex:
-        specifier: ^0.16.21
-        version: 0.16.21
+        specifier: ^0.16.22
+        version: 0.16.22
 
 packages:
 
