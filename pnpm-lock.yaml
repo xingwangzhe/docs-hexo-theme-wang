@@ -45,8 +45,8 @@ importers:
         specifier: ^1.0.13
         version: 1.0.13
       hexo-pro:
-        specifier: ^1.2.2
-        version: 1.2.2(chokidar@3.6.0)
+        specifier: ^1.2.3
+        version: 1.2.3(chokidar@3.6.0)
       hexo-renderer-ejs:
         specifier: ^2.0.0
         version: 2.0.0
@@ -712,8 +712,8 @@ packages:
     resolution: {integrity: sha512-8oo1iozloZo7TojPVYg4IxL3SJKCBdSJ908fTlIxIK7TWJIKdYnQlW31+12DBJ0NhVZA/lZisPObGF08wT8fKw==}
     engines: {node: '>=14'}
 
-  hexo-pro@1.2.2:
-    resolution: {integrity: sha512-PUdEzz0Idmw1aa5Sjun6QB7LtajNQlIffEwGHsHwz7NfIAODw9fJFPGVouEPEy5V3mr96PXLNREHPIQaMSgkOg==}
+  hexo-pro@1.2.3:
+    resolution: {integrity: sha512-4aVX4MpQ9gWS44bbLv6D/jZGFUgBiV1PwV9q5mAmPgOW81QsbTZ8ACdhulsiB1+dZ5mzW6ovSeu74b2ELnuPJg==}
 
   hexo-renderer-ejs@2.0.0:
     resolution: {integrity: sha512-qCjE1IdwgDgv65qyb0KMVCwCdSVAkH0vwAe9XihjvaKWkmb9dtt8DgErOdqCXn0HReSyWiEVP2BrLRj3gyHwOQ==}
@@ -2244,7 +2244,7 @@ snapshots:
 
   hexo-pagination@3.0.0: {}
 
-  hexo-pro@1.2.2(chokidar@3.6.0):
+  hexo-pro@1.2.3(chokidar@3.6.0):
     dependencies:
       axios: 1.9.0
       bcrypt-nodejs: 0.0.3
