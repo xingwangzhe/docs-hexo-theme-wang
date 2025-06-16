@@ -45,8 +45,8 @@ importers:
         specifier: ^1.0.13
         version: 1.0.13
       hexo-pro:
-        specifier: ^1.2.5
-        version: 1.2.5(chokidar@3.6.0)
+        specifier: ^1.2.6
+        version: 1.2.6(chokidar@3.6.0)
       hexo-renderer-ejs:
         specifier: ^2.0.0
         version: 2.0.0
@@ -159,8 +159,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  axios@1.9.0:
-    resolution: {integrity: sha512-re4CqKTJaURpzbLHtIi6XpDv20/CnpXOtjRY5/CU32L8gU8ek9UIivcfvSWvmKEngmVbrUtPpdDwWDWL7DNHvg==}
+  axios@1.10.0:
+    resolution: {integrity: sha512-/1xYAC4MP/HEG+3duIhFr4ZQXR4sQXOIe+o6sdqzeykGLx6Upp/1p8MHqhINOvGeP7xyNHe7tsiJByc4SSVUxw==}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -731,8 +731,8 @@ packages:
     resolution: {integrity: sha512-8oo1iozloZo7TojPVYg4IxL3SJKCBdSJ908fTlIxIK7TWJIKdYnQlW31+12DBJ0NhVZA/lZisPObGF08wT8fKw==}
     engines: {node: '>=14'}
 
-  hexo-pro@1.2.5:
-    resolution: {integrity: sha512-NAKr2MFutUxj3PH9I+MFNlBrPVwL7MJVXzoT6HG1YMCMvIBs45TNVzBy3pmpybTYmWTqus4n0SvyKzejibCfCg==}
+  hexo-pro@1.2.6:
+    resolution: {integrity: sha512-U3cwVaurpy+zHlIvmMAQ6UuTmm7mDvDbFHqTYNMbq2yH6pSj0krA7q4wR6lGVQJgEm4rOEJDhEnXdHrMfARBKw==}
 
   hexo-renderer-ejs@2.0.0:
     resolution: {integrity: sha512-qCjE1IdwgDgv65qyb0KMVCwCdSVAkH0vwAe9XihjvaKWkmb9dtt8DgErOdqCXn0HReSyWiEVP2BrLRj3gyHwOQ==}
@@ -1636,7 +1636,7 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.1.0
 
-  axios@1.9.0:
+  axios@1.10.0:
     dependencies:
       follow-redirects: 1.15.9
       form-data: 4.0.3
@@ -2327,10 +2327,10 @@ snapshots:
 
   hexo-pagination@3.0.0: {}
 
-  hexo-pro@1.2.5(chokidar@3.6.0):
+  hexo-pro@1.2.6(chokidar@3.6.0):
     dependencies:
       '@seald-io/nedb': 4.1.1
-      axios: 1.9.0
+      axios: 1.10.0
       bcrypt-nodejs: 0.0.3
       body-parser: 1.20.3
       browser-sync: 3.0.4
