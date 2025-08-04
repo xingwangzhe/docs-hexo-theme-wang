@@ -30,7 +30,7 @@
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.1.0",
-    "hexo-theme-wang": "^3.7.2",
+    "hexo-theme-wang": "^3.8.0",
     "hexo-tips": "^1.4.0",
     "katex": "^0.16.22"
   },
