@@ -1,5 +1,7 @@
 ## 主题配置文件，图片路径都是在主题文件夹下的source文件夹下
 ### 额外的<head>标签内插入内容，你可能会需要插入一些第三方的js库，例如统计代码等
+favicon:
+  src: images/favicon.ico
 head:
   '<script>
   console.log("Hello hexo-theme-wang");
@@ -31,10 +33,16 @@ social_links:
 search:
   enable: true # 是否启用搜索功能
   path: /search.xml # 添加前导斜杠，表示从网站根目录开始
+  field: post # 可选值: post | page | all
+  content: true # 是否搜索文章内容
 
 ## 时间是否显示秒
 time:
   show_seconds: true
+
+## 首页动态文字配置
+typed_text:
+  enable: true # 是否启用首页中间的动态打字效果区域
 
 
 ## Waline评论,需要设置serverURL，详情请访问Waline官网:https://waline.js.org
